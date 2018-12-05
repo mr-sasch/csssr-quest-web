@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+		<link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+		<link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+		<link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+		<link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+		<link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+		<link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+		<link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+		<link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+		<link sizes="192x192" href="/favicon-192x192.png" rel="icon" type="image/png">
+		<link sizes="160x160" href="/favicon-160x160.png" rel="icon" type="image/png">
+		<link sizes="96x96" href="/favicon-96x96.png" rel="icon" type="image/png">
+		<link sizes="16x16" href="/favicon-16x16.png" rel="icon" type="image/png">
+		<link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="msapplication-square70x70logo" content="/mstile-small.png">
+		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
+		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
+		<meta name="msapplication-square310x310logo" content="/mstile-large.png">
+		<title>CSSSR Project Template</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="assets/styles/app.min.css" rel="stylesheet">
+	</head>
+
+	<body class="page">
+		<form class="container form">
+			<!-- Шапка-->
+			<header>
+				<div class="header__top">
+					<img src="images/logo.png" class="header__top-logo">
+					<img src="images/stamp.png" class="header__top-stamp">
+				</div>
+				<div class="header__bottom">
+					<img src="images/title.png" class="header__bottom-title">
+				</div>
+			</header>
+			<!-- /Шапка-->
+			<!-- Основные данные-->
+			<div class="fio">
+				<div class="fio__row">
+					<div class="fio__row-ttl">Полное ФИО</div>
+					<input value="Иванов Иван Иванович" class="fio__input">
+				</div>
+				<div class="fio__row">
+					<div class="fio__row-ttl">Год рождения</div>
+					<input value="1981" class="fio__input">
+				</div>
+				<div class="fio__row">
+					<div class="fio__row-ttl">Место жительства</div>
+					<input value="Беларусь, Минск" class="fio__input">
+				</div>
+				<div class="fio__row">
+					<div class="fio__row-ttl">Скайп</div>
+					<input value="mr.sasch757" class="fio__input">
+				</div>
+				<div class="fio__row">
+					<div class="fio__row-ttl">Почта</div>
+					<input value="alex.m.sky@gmail.com" class="fio__input">
+				</div>
+			</div>
+			<!-- /Основные данные-->
+			<!-- Расскажите о себе чекбокcами-->
+			<div class="checkboxes">
+				<div class="title-simple">Расскажите о себе чекбоксами</div>
+				<div class="descr-simple">Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта не означает, что у вас меньше
+					шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете
+					справляться.</div>
+				<div class="checkboxes__items">
+					<div class="col">
+						<div class="checkboxes__item">
+							<input type="checkbox" id="bem" name="bem" checked="checked" class="checkboxes__item-input">
+							<label for="bem" class="checkboxes__item__chbx"></label>
+							<label for="bem" class="checkboxes__item-label">БЭМ/OOCSS</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="pug" name="pug" checked="checked" class="checkboxes__item-input">
+							<label for="pug" class="checkboxes__item__chbx"></label>
+							<label for="pug" class="checkboxes__item-label">Pug (Jade)</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="styl" name="styl" class="checkboxes__item-input">
+							<label for="styl" class="checkboxes__item__chbx"></label>
+							<label for="styl" class="checkboxes__item-label">Stylus/LESS/SASS</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="svg" name="svg" class="checkboxes__item-input">
+							<label for="svg" class="checkboxes__item__chbx"></label>
+							<label for="svg" class="checkboxes__item-label">Работаю с SVG</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="semantic" name="semantic" class="checkboxes__item-input">
+							<label for="semantic" class="checkboxes__item__chbx"></label>
+							<label for="semantic" class="checkboxes__item-label">Верстаю семантично</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="accessibility" name="accessibility" class="checkboxes__item-input">
+							<label for="accessibility" class="checkboxes__item__chbx"></label>
+							<label for="accessibility" class="checkboxes__item-label">Accessibility (A11Y)</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="es" name="es" class="checkboxes__item-input">
+							<label for="es" class="checkboxes__item__chbx"></label>
+							<label for="es" class="checkboxes__item-label">ES2015/ES2016</label>
+						</div>
+					</div>
+					<div class="col">
+						<div class="checkboxes__item">
+							<input type="checkbox" id="gulp" name="gulp" class="checkboxes__item-input">
+							<label for="gulp" class="checkboxes__item__chbx"></label>
+							<label for="gulp" class="checkboxes__item-label">Gulp/GRUNT</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="webpack" name="webpack" class="checkboxes__item-input">
+							<label for="webpack" class="checkboxes__item__chbx"></label>
+							<label for="webpack" class="checkboxes__item-label">Webpack</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="webgl" name="webgl" class="checkboxes__item-input">
+							<label for="webgl" class="checkboxes__item__chbx"></label>
+							<label for="webgl" class="checkboxes__item-label">Дружу с WebGL</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="jquery" name="jquery" class="checkboxes__item-input">
+							<label for="jquery" class="checkboxes__item__chbx"></label>
+							<label for="jquery" class="checkboxes__item-label">jQuery</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="angular" name="angular" class="checkboxes__item-input">
+							<label for="angular" class="checkboxes__item__chbx"></label>
+							<label for="angular" class="checkboxes__item-label">Знаю/изучаю Angular</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="react" name="react" class="checkboxes__item-input">
+							<label for="react" class="checkboxes__item__chbx"></label>
+							<label for="react" class="checkboxes__item-label">Знаю/изучаю React</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="nodejs" name="nodejs" class="checkboxes__item-input">
+							<label for="nodejs" class="checkboxes__item__chbx"></label>
+							<label for="nodejs" class="checkboxes__item-label">Знаю/изучаю Node.js</label>
+						</div>
+					</div>
+					<div class="col">
+						<div class="checkboxes__item">
+							<input type="checkbox" id="git" name="git" class="checkboxes__item-input">
+							<label for="git" class="checkboxes__item__chbx"></label>
+							<label for="git" class="checkboxes__item-label">Использую Git</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="eye" name="eye" class="checkboxes__item-input">
+							<label for="eye" class="checkboxes__item__chbx"></label>
+							<label for="eye" class="checkboxes__item-label">С глазомером все ок</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="blog" name="blog" class="checkboxes__item-input">
+							<div class="checkboxes__item__chbx"></div>
+							<label for="blog" class="checkboxes__item-label">Читаю
+								<a href="https://blog.csssr.ru/" target="_blank" class="checkboxes__item-label-a">blog.csssr.ru</a>
+							</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="lazy" name="lazy" class="checkboxes__item-input">
+							<label for="lazy" class="checkboxes__item__chbx"></label>
+							<label for="lazy" class="checkboxes__item-label">Я ленивый(-ая)</label>
+						</div>
+						<div class="checkboxes__item">
+							<input type="checkbox" id="english" name="english" class="checkboxes__item-input">
+							<label for="english" class="checkboxes__item__chbx"></label>
+							<label for="english" class="checkboxes__item-label">У меня хороший английский</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Расскажите о себе чекбокcами-->
+			<!-- Уровень владения JavaScript-->
+			<div class="js">
+				<div class="title-simple title-simple_js">Уровень владения JavaScript</div>
+				<div id="slider__d" class="slider__d">
+					<img src="images/slider-arrow.png" class="slider__d-pointer">
+					<div onclick="mouseUp(0)" class="slider__d-item">
+						<img src="images/slider-vert-1.png" class="slider__d-item-label slider__d-item-label-first">
+						<div class="slider__d-item-ttl">Не владею</div>
+					</div>
+					<div onclick="mouseUp(1)" class="slider__d-item">
+						<img src="images/slider-vert-2.png" class="slider__d-item-label slider__d-item-label-middle">
+						<div class="slider__d-item-ttl">Использую готовые решения</div>
+					</div>
+					<div onclick="mouseUp(2)" class="slider__d-item">
+						<img src="images/slider-vert-2.png" class="slider__d-item-label slider__d-item-label-middle">
+						<div class="slider__d-item-ttl">Использую готовые решения и умею их переделывать</div>
+					</div>
+					<div onclick="mouseUp(3)" class="slider__d-item">
+						<img src="images/slider-vert-1.png" class="slider__d-item-label slider__d-item-label-last">
+						<div class="slider__d-item-ttl">Пишу сложный JS с нуля</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Уровень владения JavaScript-->
+			<!-- Расскажите о себе словами-->
+			<div class="words">
+				<div class="title-simple title-simple_words">Расскажите о себе словами</div>
+				<div class="descr-simple descr-simple_words">Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в CSSSR. Кстати, будет здорово,
+					если при нехватке места для текста строки будут добавляться автоматически.</div>
+				<div class="words__textarea-wrap">
+					<textarea id="words__textarea" oninput="areaHeight()" name="words" value="" class="words__textarea"></textarea>
+					<div class="words__textarea-placeholder">Ну-ууу-уу...
+						<br>Ээээ...</div>
+				</div>
+			</div>
+			<!-- /Расскажите о себе словами-->
+			<!-- Какие у вас планы на будущее-->
+			<div class="plans">
+				<div class="title-simple">Какие у вас планы на будущее</div>
+				<div class="descr-simple descr-simple_plans">Этот ответ ни на что не повлияет. Не беда, если в будущем планы поменяются.</div>
+				<div class="plans__items">
+					<div class="plans__item">
+						<input name="plans" value="verstat" id="verstat" type="radio" class="plans__item-input">
+						<label for="verstat" class="plans__item-bullet">
+							<div class="plans__item-bullet-out"></div>
+							<div class="plans__item-bullet-inner"></div>
+						</label>
+						<label for="verstat" class="plans__item-label">Верстать</label>
+					</div>
+					<div class="plans__item">
+						<input name="plans" value="js" id="js" type="radio" checked="checked" class="plans__item-input">
+						<label for="js" class="plans__item-bullet">
+							<div class="plans__item-bullet-out"></div>
+							<div class="plans__item-bullet-inner"></div>
+						</label>
+						<label for="js" class="plans__item-label">Прокачиваться в JS</label>
+					</div>
+					<div class="plans__item">
+						<input name="plans" value="management" id="management" type="radio" class="plans__item-input">
+						<label for="management" class="plans__item-bullet">
+							<div class="plans__item-bullet-out"></div>
+							<div class="plans__item-bullet-inner"></div>
+						</label>
+						<label for="management" class="plans__item-label">Менеджерство</label>
+					</div>
+					<div class="plans__item">
+						<input name="plans" value="other" id="other" type="radio" class="plans__item-input">
+						<label for="other" class="plans__item-bullet">
+							<div class="plans__item-bullet-out"></div>
+							<div class="plans__item-bullet-inner"></div>
+						</label>
+						<label for="other" class="plans__item-label">Другое</label>
+					</div>
+				</div>
+			</div>
+			<!-- /Какие у вас планы на будущее-->
+			<!-- Дата заполнения-->
+			<div class="date">
+				<div class="date__ttl">Дата заполнения</div>
+				<input type="text" name="date" value="2018.08.21" class="date__data">
+			</div>
+			<!-- /Дата заполнения-->
+		</form>
+		<script src="assets/scripts/app.min.js"></script>
+		<!-- script(src='js/slider.js')-->
+		<script src="js/slider-2.js"></script>
+		<script src="js/slider-mobile.js"></script>
+		<script src="js/strings.js"></script>
+	</body>
+
+</html>
