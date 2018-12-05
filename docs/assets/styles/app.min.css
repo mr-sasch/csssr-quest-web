@@ -459,7 +459,7 @@ header {
   right: 0;
 }
 .slider__d-item-ttl {
-  min-width: 100px;
+  min-width: 70px;
   max-width: 170px;
   font-family: 'PT Sans Bold', sans-serif;
   font-size: 13px;
